@@ -10,7 +10,7 @@ const DB = require('./models/note')
 
 app.engine('.hbs', exphbs.engine);
 app.set('view engine', '.hbs');
-app.use('/static', express.static(__dirname + '/views/static'))
+app.use('/static', express.static('./views/static'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
 
