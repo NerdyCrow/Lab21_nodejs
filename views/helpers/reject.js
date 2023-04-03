@@ -1,7 +1,7 @@
 module.exports = {
     reject: (context, opt) => {
-        return `<button style="width: 32%;text-align: center; height: 5vh;"
+        return `<a class="cansel" style="width: 32%;text-align: center; height: 5vh;"
         onclick="document.location='/'"
-        >Отказаться</button>`
+        >Отказаться</a>`
     }
 }

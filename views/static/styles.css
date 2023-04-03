@@ -7,6 +7,9 @@
   
     height: 400px;
 }
+ input[type="url"] {
+     cursor: pointer;
+ }
 .notes-container {
     
     display: block;
@@ -19,14 +22,50 @@
     overflow: scroll;
     overflow-x: hidden;
 }
-.block-button {
-    width: 90%;
-    margin: 5px;
+.cansel{
+    
+text-decoration: none;
+    background-color: rgb(240, 239, 239);
+    display: block;
+    text-align:center;
+    width: 98%;
     height: 35px;
-    background-color:white;
-    border: 1px solid black;
-    font-weight: bold;
+    
+    border: 1px solid gray;
+    border-radius: 2px;
+ 
 }
+.add{
+    background-color: rgb(240, 239, 239);
+        display: block;
+        text-align: center;
+        width: 98%;
+        height: 35px;
+    
+        border: 1px solid gray;
+        border-radius: 2px;
+        cursor: pointer;
+}
+.block-button{
+    text-decoration: none;
+    display: block;
+        text-align: center;
+        width: 98%;
+        margin-top: 5px;       
+        height: 35px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-weight: bold;
+}
+.block-button:hover{
+    background-color: lightblue;
+}
+a:visited {
+    /* Цвет посещённой ссылки */
+    color: black;
+}
+
 .partial-content {
     width: 90%;
     display: flex;
