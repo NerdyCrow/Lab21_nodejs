@@ -25,6 +25,9 @@
 a:active{
     color: black;
 }
+a{
+color:black;
+}
 .cansel{
     
 text-decoration: none;
