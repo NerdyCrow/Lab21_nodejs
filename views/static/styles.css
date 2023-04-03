@@ -49,6 +49,7 @@ text-decoration: none;
 .block-button{
     text-decoration: none;
     display: block;
+		color: black;
         text-align: center;
         width: 98%;
         margin-top: 5px;       
